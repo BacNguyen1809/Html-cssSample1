@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#top {
+    display: inline-block;
+    background-color: white;
+    width: 1000px;
+    height: 60px;
+    margin-left: 200px;
+    border-bottom: 5px double blue;
+
+}
+
+#main #mau {
+    float: left;
+    width: 200px;
+    height: 520px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#main #anh {
+    float: left;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+#main #anh img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#footer {
+    clear: left;
+    width: 1000px;
+    height: 60px;
+    margin-left: 200px;
+    min-height: 50px;
+}
+
+#top h1,
+p {
+
+    float: right;
+}
+
+#top h1 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+    opacity: 0.5;
+
+
+}
+
+#top p {
+    padding: 0px;
+    margin: 40px -180px 0px 0px;
+    opacity: 0.6;
+
+}
+
+#top .hinh {
+    float: left;
+    margin: 16px 0px 0px 2px;
+    padding: 0px;
+    width: 60px;
+
+}
+
+#main #mau img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    margin-top: 60px;
+
+}
+
+#main #mau p {
+    margin-right: 70px;
+   opacity: 0.5;
+}
+
+#footer #image {
+    border: 2px solid red;
+    display: flex;
+
+
+}
+
+#footer img {
+    width: 170px;
+
+    height: 150px;
+}
+
+#footer #image #image1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    padding: 10px;
+   
+}
+
+#footer #image #image2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    padding: 10px;
+    margin-left: 120px;
+    
+}
+
+#footer #image #image3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    padding: 10px;
+    margin-left: 120px;
+    ;
+}
+
+#footer #image #image1 p {
+    width: 170px;
+    
+}
+
+#footer #image #image2 p {
+    width: 170px;
+}
+
+#footer #image #image3 p {
+    width: 170px;
+}
+#featured {
+    opacity: 0.5;
+}
