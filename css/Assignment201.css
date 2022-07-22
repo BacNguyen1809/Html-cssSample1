@@ -93,6 +93,7 @@ p {
 #footer #image {
     border: 2px solid red;
     display: flex;
+    justify-content: space-between;
 
 
 }
@@ -108,8 +109,7 @@ p {
     display: inline-block;
     text-align: center;
     width: 170px;
-    padding: 10px;
-   
+
 }
 
 #footer #image #image2 {
@@ -117,8 +117,7 @@ p {
     display: inline-block;
     text-align: center;
     width: 170px;
-    padding: 10px;
-    margin-left: 120px;
+
     
 }
 
@@ -127,9 +126,7 @@ p {
     display: inline-block;
     text-align: center;
     width: 170px;
-    padding: 10px;
-    margin-left: 120px;
-    ;
+
 }
 
 #footer #image #image1 p {
